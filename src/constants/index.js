@@ -11,11 +11,11 @@ In addition to my technical expertise, I am committed to continuous learning and
 
 export const EXPERIENCES = [
   {
-    year: "May 2023 - June 2023",
-    role: "Software Development Intern",
+    year: "E-Commerce Website 2023",
+    role: "Web Development Intern",
     company: "NIELIT",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["JavaScript", "React.js", "Next.js", "MongoDB"],
+    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, Node.js, and Express.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
+    technologies: ["JavaScript", "React.js", "Node.js", "Express.js", "Next.js", "MongoDB"],
     projects: [
       {
         title: "Project Management System",
@@ -25,38 +25,13 @@ export const EXPERIENCES = [
     ]
   },
   {
-    year: "Summer 2023",
-    role: "Software Development Intern",
-    company: "[Academic Institution or Partner Company]",
-    description: `Completed a summer internship focused on developing an e-commerce website as part of academic requirements.`,
-    technologies: ["HTML", "CSS", "JavaScript", "Node.js", "Express", "MySQL"],
-    keyResponsibilities: [
-      "Designed and implemented user-friendly interfaces.",
-      "Developed backend services to handle user authentication, product listings, and order processing.",
-      "Integrated a MySQL database for storing user data, product details, and transaction records."
-    ],
-    skillsAcquired: [
-      "Frontend development with HTML, CSS, and JavaScript.",
-      "Backend development using Node.js and Express.",
-      "Database management with MySQL.",
-      "Understanding of e-commerce workflows and user experience design."
-    ],
-    projects: [
-      {
-        title: "E-Commerce Website",
-        image: project2,
-        description: "Developed a fully functional e-commerce website with features like product listing, shopping cart, and user authentication."
-      }
-    ]
-  },
-  {
-    year: "Summer 2022",
+    year: "Mini Project 2024",
     role: "Project Developer",
-    company: "[N/A or Academic Institution]",
+    company: "Dhemaji Engineering College",
     description: `Developed a mini project focused on creating a real-time chat application.`,
-    technologies: ["HTML", "CSS", "JavaScript", "WebSocket", "Node.js", "MongoDB"],
+    technologies: ["HTML", "CSS", "JavaScript", "React.js", "WebSocket", "Node.js", "MongoDB"],
     keyResponsibilities: [
-      "Designed the chat interface using HTML, CSS, and JavaScript.",
+      "Designed the chat interface using HTML, CSS, JavaScript and React.js.",
       "Implemented real-time messaging functionality using WebSocket and Node.js.",
       "Created a simple user authentication system to manage chat participants.",
       "Ensured message persistence by integrating MongoDB for storing chat history."
@@ -76,29 +51,47 @@ export const EXPERIENCES = [
     ]
   },
   {
-    year: "Spring 2022",
-    role: "Teaching Assistant",
-    company: "[Academic Institution]",
-    description: `Assisted in teaching the Data Structures course, helping students understand complex topics and grading assignments.`,
-    technologies: ["Data Structures", "Algorithms", "Python/C++/Java"],
+    year: "Summer 2024",
+    role: "Software Development Intern",
+    company: "Industarial Internship at IOCL Digboi",
+    description: `Completed a summer internship focused on developing an Employee Management System website as part of academic requirements.`,
+    technologies: ["HTML", "CSS", "JavaScript", "Node.js", "Express", "MySQL"],
     keyResponsibilities: [
-      "Assisted the professor in preparing and delivering lectures.",
-      "Held weekly office hours to help students with their assignments and projects.",
-      "Graded assignments and exams, ensuring fairness and accuracy in assessment."
+      "Designed and implemented user-friendly interfaces.",
+      "Developed backend services to handle user authentication, product listings, and order processing.",
+      "Integrated a MySQL database for storing user data, product details, and transaction records."
     ],
     skillsAcquired: [
-      "Deepened understanding of data structures and algorithms.",
-      "Enhanced communication and teaching skills.",
-      "Developed a strong sense of responsibility and time management."
+      "Frontend development with HTML, CSS, JavaScript, And React.js .",
+      "Backend development using Node.js and Express.js .",
+      "Database management with MySQL.",
+      "Understanding of Employee Management System workflows and user experience design."
     ],
-    projects: [
-      {
-        title: "Data Structures Lab Exercises",
-        image: project4,
-        description: "Developed and graded lab exercises for students to practice data structures and algorithms."
-      }
-    ]
   },
+  // {
+  //   year: "July 2024",
+  //   role: "Teaching Assistant",
+  //   company: "[Academic Institution]",
+  //   description: `Assisted in teaching the Data Structures course, helping students understand complex topics and grading assignments.`,
+  //   technologies: ["Data Structures", "Algorithms", "Python/C++/Java"],
+  //   keyResponsibilities: [
+  //     "Assisted the professor in preparing and delivering lectures.",
+  //     "Held weekly office hours to help students with their assignments and projects.",
+  //     "Graded assignments and exams, ensuring fairness and accuracy in assessment."
+  //   ],
+  //   skillsAcquired: [
+  //     "Deepened understanding of data structures and algorithms.",
+  //     "Enhanced communication and teaching skills.",
+  //     "Developed a strong sense of responsibility and time management."
+  //   ],
+  //   projects: [
+  //     {
+  //       title: "Data Structures Lab Exercises",
+  //       image: project4,
+  //       description: "Developed and graded lab exercises for students to practice data structures and algorithms."
+  //     }
+  //   ]
+  // },
 ];
 
 export const PROJECTS = [
@@ -106,25 +99,26 @@ export const PROJECTS = [
     title: "E-Commerce Website",
     description: "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-    image: project1, // Replace with actual image filename or URL
+    image: project1,
+  },
+  
+  {
+    title: "Chat Box",
+    description: "A mini project focused on implementing a chat box feature.",
+    technologies: ["Specify the technologies used"],
+    image: project3,
   },
   {
     title: "Employee Management System",
     description: "An application for managing employees with features such as listing, adding, editing, and deleting employees.",
     technologies: ["React", "Node.js", "MySQL"],
-    image: project2, // Replace with actual image filename or URL
-  },
-  {
-    title: "Chat Box",
-    description: "A mini project focused on implementing a chat box feature.",
-    technologies: ["Specify the technologies used"],
-    image: project3, // Replace with actual image filename or URL
+    image: project2,
   },
   {
     title: "Portfolio Website",
     description: "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
-    image: project4, // Replace with actual image filename or URL
+    image: project4,
   },
 ];
 
