@@ -125,5 +125,5 @@ export const PROJECTS = [
 export const CONTACT = {
   address: "Bilasipara, Dhubri, Assam, India, 783348 ",
   phoneNo: "+91 60031 10195 ",
-  email: "saidulalom525@gmail.com",
+  email: "saidulalom305@gmail.com",
 };
